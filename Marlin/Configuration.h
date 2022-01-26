@@ -1014,7 +1014,7 @@
 
 /**
  * Z_MIN_PROBE_PIN
- *
+ *z
  * Define this pin if the probe is not connected to Z_MIN_PIN.
  * If not defined the default pin for the selected MOTHERBOARD
  * will be used. Most of the time the default is what you want.
@@ -1156,7 +1156,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -43, -6, -4.41 }
+#define NOZZLE_TO_PROBE_OFFSET { -43, -6, 0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
