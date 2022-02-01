@@ -1014,7 +1014,7 @@
 
 /**
  * Z_MIN_PROBE_PIN
- *z
+ *
  * Define this pin if the probe is not connected to Z_MIN_PIN.
  * If not defined the default pin for the selected MOTHERBOARD
  * will be used. Most of the time the default is what you want.
